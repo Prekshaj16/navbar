@@ -7,7 +7,6 @@ const UserManagement = () => {
   const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState("edit");
-
   const [editCity, setEditCity] = useState("");
   const [editName, setEditName] = useState("");
   const [editEmail, setEditEmail] = useState("");
@@ -142,7 +141,6 @@ const UserManagement = () => {
       .catch((err) => {
         console.log("Failed to upadte", err)
       })
-
 
   }
 
